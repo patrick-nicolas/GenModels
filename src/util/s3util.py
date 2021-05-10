@@ -11,9 +11,6 @@ import pickle
 from collections import OrderedDict
 
 
-AWS_ACCESS_KEY_ID='AKIAQVWRM24MJK2VXHKY'
-AWS_SECRET_ACCESS_KEY='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'
-AWS_SHARED_CREDENTIALS_FILE="~/.aws/credentials2"
 
 session = boto3.Session(profile_name='default', region_name='us-east-2', aws_access_key_id=AWS_ACCESS_KEY_ID, aws_secret_access_key=AWS_SECRET_ACCESS_KEY)
 s3 = session.resource('s3')
