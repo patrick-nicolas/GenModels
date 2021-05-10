@@ -1,0 +1,22 @@
+[
+  {
+    "id": "encounter1",
+    "features":"A,C,D,F",
+    "items": "item3,item8"
+  },
+  {
+    "id": "encounter2",
+    "features":"B,C,F",
+    "items": "item3,item2"
+  },
+  {
+    "id": "encounter3",
+    "features":"A,D,E,F",
+    "items": "item1,item4,item5"
+  },
+  {
+    "id": "encounter4",
+    "features":"B,D,E",
+    "items":"item6"
+  }
+]

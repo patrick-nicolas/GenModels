@@ -1,0 +1,44 @@
+2021-04-02 20:46:11,768 INFO     Embedding params:
+Learning rate: 0.0002
+# epochs: 3
+Stride: 5
+Embedding size: 32
+Hidden layer size: 128
+2021-04-02 20:46:11,857 INFO     S3 Path: reports/embeddedLayer/test/7/3/terms
+2021-04-05 19:58:55,946 INFO     CUDA not available!
+2021-04-05 19:58:55,947 INFO     Start execution
+2021-04-05 19:58:55,947 INFO     Arguments: train_embeddings test/7/3 test 6
+2021-04-05 19:58:55,947 INFO     __init__() missing 1 required positional argument: 'is_record_snapshot'
+2021-04-05 20:00:27,479 INFO     CUDA not available!
+2021-04-05 20:00:27,480 INFO     Start execution
+2021-04-05 20:00:27,480 INFO     Arguments: train_embeddings test/7/3 test 6
+2021-04-05 20:00:27,480 INFO     __init__() missing 1 required positional argument: 'is_record_snapshot'
+2021-04-05 20:00:49,588 INFO     CUDA not available!
+2021-04-05 20:00:49,590 INFO     Start execution
+2021-04-05 20:00:49,590 INFO     Arguments: train_embeddings test/7/3 test 6
+2021-04-05 20:00:49,590 INFO     __init__() missing 1 required positional argument: 'is_record_snapshot'
+2021-04-06 12:16:31,311 INFO     CUDA not available!
+2021-04-06 12:16:31,312 INFO     Start execution
+2021-04-06 12:16:31,313 INFO     Arguments: train_embeddings test/7/3 test 3 False
+2021-04-06 12:16:31,313 INFO     Embedding params:
+Learning rate: 0.0002
+# epochs: 3
+Stride: 5
+Embedding size: 32
+Hidden layer size: 128
+2021-04-06 12:16:31,431 INFO     S3 Path: reports/embeddedLayer/test/7/3/terms
+2021-04-06 12:16:34,322 INFO     Loaded 3 records
+2021-04-06 12:16:34,437 INFO     Start training 2 records and evaluate 1 records
+2021-04-06 12:17:06,783 INFO     Epoch: 0 Training completed after 32.3457670211792 seconds
+2021-04-06 12:17:06,943 INFO     Epoch: 0 Evaluation completed after 0.15918421745300293 seconds
+2021-04-06 12:17:06,943 INFO     Epoch: 0, Training loss: 11.300031631099067, Eval loss: 10.896483136896501, Accuracy: 0.0
+2021-04-06 12:17:06,943 INFO     eval loss - train loss: -0.4035484942025658 vs. min 100000.0
+2021-04-06 12:17:42,456 INFO     Epoch: 1 Training completed after 35.67248010635376 seconds
+2021-04-06 12:17:42,621 INFO     Epoch: 1 Evaluation completed after 0.16410589218139648 seconds
+2021-04-06 12:17:42,621 INFO     Epoch: 1, Training loss: 9.254089121876458, Eval loss: 8.690250179223847, Accuracy: 0.0
+2021-04-06 12:17:42,621 INFO     eval loss - train loss: -0.5638389426526107 vs. min 100000.0
+2021-04-06 12:18:27,385 INFO     Epoch: 2 Training completed after 44.928220987319946 seconds
+2021-04-06 12:18:27,800 INFO     Epoch: 2 Evaluation completed after 0.41469407081604004 seconds
+2021-04-06 12:18:27,801 INFO     Epoch: 2, Training loss: 5.617050644357195, Eval loss: 6.851422023354915, Accuracy: 0.05263157894736842
+2021-04-06 12:18:27,801 INFO     eval loss - train loss: 1.2343713789977198 vs. min 100000.0
+2021-04-06 12:18:27,802 INFO     Save to models/model-test-7-3
